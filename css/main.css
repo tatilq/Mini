@@ -1,21 +1,76 @@
-/* Inserte su codigo aqui */
 *
 {
-	outline: 1px solid black;
+	/*outline: 1px solid black;*/
+    font-family: 'Taviraj', serif;
 }
+a 
+{ color:#fff;}
+/*Esta e sl parte del HERO*/ 
 .hero
 {
-	background-color: yellow;
+	background-color: #F0B903;/*color de fondo*/
 	height: 600px;
+	margin: 0 auto;
+}
+.hero .btn
+{
+	background-color: #F7A22B;/*color del boton*/
+	margin-top: 50px;
+}
+.hero .laboratoria
+{
+	padding-top: 250px;
+	color: white;
+}
+.hero ul{ padding-top: 40px;}
+.hero a { text-decoration: none;}
+
+/*Esta es la parte del CONTENIDO     */
+
+.contenido{
+  background: #cfdacb;
+  padding-top: 40px;
+  padding-bottom:  20px;
+  margin: 0 auto;
+}
+.caja{
+  width: 90%;
+  background: #fff;
+  text-align: center;
+  margin-top: 30px;
 
 }
-.caja
-{
-	height: 150px;
-	width: 150px;
-	background-color: red;
+.contenido .img{
+  width: 300px;
+  height: 300px;
+  background: #fff;
+  display: inline-block;
+  margin: 10px 10px 10px 1px ;
+  
+}
+.img h3 {
+line-height: 250px;
+background: #B3B0AB;
+}
+.contenido p{
+  color:black;
+  text-align: left;
+  padding: 5px 25px;
+}
+.contenido h2{
+  text-align: left;
+  padding: 1px 15px;
+}
+.contenido button{
+  color:#fff;
+  background: #f2ac11;
+  border: none;
+  margin-bottom: 10px;
+  padding: 10px 10px;
 }
 footer
 {
-	background-color: blue;
+	background-color: black;
+  	line-height: 60px;
+  	color: white;
 }
