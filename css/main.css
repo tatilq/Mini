@@ -1,1 +1,21 @@
 /* Inserte su codigo aqui */
+*
+{
+	outline: 1px solid black;
+}
+.hero
+{
+	background-color: yellow;
+	height: 600px;
+
+}
+.caja
+{
+	height: 150px;
+	width: 150px;
+	background-color: red;
+}
+footer
+{
+	background-color: blue;
+}
